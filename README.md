@@ -1,1 +1,1 @@
-https://vovodportfolio.netlify.app
+https://vovod.github.io/portfolio/
