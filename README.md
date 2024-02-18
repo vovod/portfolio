@@ -1,1 +1,0 @@
-https://vovodportfolio.netlify.app
