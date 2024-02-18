@@ -5,11 +5,457 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/922aa284f1.js" crossorigin="anonymous"></script>
+    <title>vovod | Portfolio</title>
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="circle"></div>
+    </div>
 
+    <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars hamburger"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarId">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#client">Client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <header id="home">
+        <div class="container-fluid header-content">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="content-box">
+                        <h4 style="font-size: 60px; font-weight: 1000;">Welcome</h4>
+                        <h1>I'm <span class="element" style="color: #ee8683; font-weight: bold;"></span></h1>
+                        <p>This is my Portfolio website</p>
+                        <a href="#" class="btn">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about r-p" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="images/rsz_about.jpg" class="img-fluid img-thumbnail" alt="profile picture">
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <h2 style="font-size: 70px; font-weight: 600;">About me</h2>
+                    <h4 style="font-size: 40px; font-weight: 400;">Xin chào! <span style="color: #E96F85;"></span> I'm
+                        Nguyễn Hải Dương</h4>
+                    <p>I'm a developer from Ha Noi, Viet Nam.</p>
+                    <p>I'm studying Posts and Telecommunications Institute of Technology.</p>
+                    <p>I'm a freelancer.</p>
+                    <p>I graduate in 2025.</p>
+                    <p>Embracing the philosophy that genius is one percent inspiration and ninety-nine percent
+                        perspiration, I navigate the intricate realms of coding with passion and dedication. As a
+                        seasoned programmer, I thrive on transforming ideas into innovative solutions through relentless
+                        effort and a commitment to excellence.</p>
+                    <div>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href=""><i class="fa-brands fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exp-class" id="exp-id">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <h3 style="font-size: 70px; font-weight: 800;">My skills</h3>
+                </div>
+                <div class="col-md-6">
+                    <label>Html</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                    <label>Css</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                    <label>Javascript</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                    <label>Python</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">65%</div>
+                    </div>
+                    <label>C/C++</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                    <label>Java</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-class bg-sec r-p" id="services-id">
+        <div class="container text-center" id="container-services">
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <h2 style="font-size: 80px; font-weight: 800;">My services</h2>
+                        <p style="font-size: 30px; font-weight: 400;">Offer for our clients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Web design</h5>
+                            <div class="service-border"></div>
+                            <p class="card-text">Web design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-opencart"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce</h5>
+                            <div class="service-border"></div>
+                            <p class="card-text">E-Commerce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Artificial intelligence</h5>
+                            <div class="service-border"></div>
+                            <p class="card-text">Artificial intelligence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-android"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Android</h5>
+                            <div class="service-border"></div>
+                            <p class="card-text">Android</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Game develop</h5>
+                            <div class="service-border"></div>
+                            <p class="card-text">Game develop</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-apple"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">IOS</h5>
+                            <div class="service-border"></div>
+                            <p class="card-text">IOS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hire-me r-p" id="hire-id">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3 style="font-size: 50px; font-weight: 700;" class="mb-4">I am available for freelance!</h3>
+                    <a style="font-size: 30px" href="" class="btn r-btn">Hire me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimony-class r-p bg-sec" id="testimony-id">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h2 style="font-size: 70px; font-weight: 800;">Testimony</h2>
+                    <p style="font-size: 30px; font-weight: 500; color: chocolate;">What people say about me?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="text-center test-item"><i class="fas fa-quote-left"></i>
+                                <div>
+                                    <img src="images/clients/naruto.jpg" class="mx-auto test-img rounded-circle" alt="">
+                                </div>
+                                <p class="text-muted">"Dattebayo!"</p>
+                                <p class="test-name">Uzumaki Naruto, The Seventh Hokage</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="text-center test-item"><i class="fas fa-quote-left"></i>
+                                <div>
+                                    <img src="images/clients/kakashi.jpg" class="mx-auto test-img rounded-circle"
+                                        alt="">
+                                </div>
+                                <p class="text-muted">"In the ninja world, those who break the rules are scum, that's
+                                    true, but those who abandon their comrades are worse than scum."</p>
+                                <p class="test-name">Kakashi Hatake, The Sixth Hokage</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="text-center test-item"><i class="fas fa-quote-left"></i>
+                                <div>
+                                    <img src="images/clients/itachi.jpg" class="mx-auto test-img rounded-circle" alt="">
+                                </div>
+                                <p class="text-muted">"You will become a rival to measure my vessel against."</p>
+                                <p class="test-name">Uchiha Itachi, Genius of All Geniuses</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="text-center test-item"><i class="fas fa-quote-left"></i>
+                                <div>
+                                    <img src="images/clients/sakura.jpg" class="mx-auto test-img rounded-circle" alt="">
+                                </div>
+                                <p class="text-muted">"The things that are most important aren’t written in books. You
+                                    have to learn them by experiencing them yourself."</p>
+                                <p class="test-name">Sakura Haruno, Kunoichi of Konoha</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work -->
+    <section class="work r-p">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mb-5">
+                    <h2 style="font-size: 70px; font-weight: 800;">Work</h2>
+                    <p style="font-size: 45px; font-weight: 500;">What i have created</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 mx-auto mb-5">
+                    <button class="btn r-btn" data-filter="0">All</button>
+                    <button class="btn r-btn" data-filter="1">Web</button>
+                    <button class="btn r-btn" data-filter="2">SEO</button>
+                    <button class="btn r-btn" data-filter="3">Graphics</button>
+                    <button class="btn r-btn" data-filter="4">Apps</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row filter-container mx-auto">
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="0,1,2">
+                        <div>
+                            <img src="images/work/w1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="0,4,2">
+                        <div>
+                            <img src="images/work/w2.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="0,1,4,2">
+                        <div>
+                            <img src="images/work/w3.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="0,4,3">
+                        <div>
+                            <img src="images/work/w4.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="0,1,4,2">
+                        <div>
+                            <img src="images/work/w5.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="0,1,3">
+                        <div>
+                            <img src="images/work/w6.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="contact r-p bg-sec">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h2 style="font-size: 45px; font-weight: 800;">Contact me</h2>
+                    <p>Get in touch with me</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="r-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="text-center">
+                            <h5>Call me</h5>
+                            <p>0-123-456-789</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="r-icon">
+                        <i class="fas fa-envelope"></i>
+                        <div class="text-center">
+                            <h5>Email</h5>
+                            <p>nguyenhaid0212@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="r-icon">
+                        <i class="fas fa-map-pin"></i>
+                        <div class="text-center">
+                            <h5>Visit me</h5>
+                            <p>Long Bien, Ha Noi, Viet Nam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <form>
+                            <div class="row form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Message"
+                                    style="resize: none;"></textarea>
+                            </div>
+                            <button type="submit" class="btn r-btn float-end">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container h-100 text-center d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col">
+                    <div class="r-icon text-center mt-3">
+                        <ul>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="text-muted" style="font-size: 18px; font-weight: 800;">&copy; copyright vovod | 2024 All
+                        Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <h1 class="display-1">hello world</h1> -->
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/popper.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/typed.js"></script>
+    <script src="js/app.js"></script>
+    <script src="lib/jquery.waypoints.min.js"></script>
+    <script src="lib/owl.carousel.min.js"></script>
+    <script src="lib/jquery.filterizr.min.js"></script>
 </body>
 
 </html>
