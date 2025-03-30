@@ -49,4 +49,17 @@ $(document).ready(function () {
     var filterizd = $('.filter-container').filterizr({
         animationDuration: 0.5
     });
+
+    // redict links
+    const socialLinks = {
+        facebook: 'https://www.facebook.com/nhdvovod',
+        instagram: 'https://www.instagram.com/nhdvovod',
+        github: 'https://www.github.com/vovod',
+        youtube: 'https://www.youtube.com',
+    }
+
+    document.getElementById("facebook").href = socialLinks.facebook;
+    document.getElementById("instagram").href = socialLinks.instagram;
+    document.getElementById("github").href = socialLinks.github;
+    document.getElementById("youtube").href = socialLinks.youtube;
 });
